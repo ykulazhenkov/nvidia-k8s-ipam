@@ -32,7 +32,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          platforms: linux/amd64,linux/arm64,linux/ppc64le
+          platforms: linux/amd64
           tags: |
             ghcr.io/${{ steps.repo_name.outputs.repository }}:latest
           labels: ${{ steps.docker_meta.outputs.labels }}
