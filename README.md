@@ -587,6 +587,12 @@ interface should have two IP addresses: one IPv4 and one IPv6. (default: network
 * `logFile` (string, optional): log file path. (default: `"/var/log/nv-ipam-cni.log"`)
 * `logLevel` (string, optional): logging level. one of: `["verbose", "debug", "info", "warning", "error", "panic"]`.  (default: `"info"`)
 
+
+### Advanced configuration
+
+* [Static IP address configuration](docs/static-ip.md)
+
+
 ## Deployment
 
 ### Deploy IPAM plugin
